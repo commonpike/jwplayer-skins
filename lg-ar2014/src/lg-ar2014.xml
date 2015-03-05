@@ -10,11 +10,12 @@
 				<setting name="fontsize" value="11"/>
 				<setting name="fontweight" value="normal"/>
 				<setting name="fontcase" value="normal"/>
-				<setting name="fontcolor" value="0x000000"/>
+				<setting name="fontcolor" value="0xFFFFFF"/>
 			</settings>
 			
 			<elements>
 				<element name="background" src="background.png" />
+				
 				<element name="capLeft" src="cap.png" />
 				<element name="capRight" src="cap.png" />
 				
@@ -33,8 +34,10 @@
 				-->
 				
 				<element name="durationBackground" src="spacer.png" />
+				
 				<element name="timeSliderCapLeft" src="timeSliderCap.png" />
 				<element name="timeSliderCapRight" src="timeSliderCap.png" />
+				
 				<element name="timeSliderRail" src="timeSliderRail.png" />
 				<element name="timeSliderBuffer" src="timeSliderBuffer.png" />
 				<element name="timeSliderProgress" src="timeSliderProgress.png" />
@@ -79,19 +82,28 @@
 			<elements>
 				<element name="background" src="background.png" />
 				<element name="backgroundOver" src="backgroundOver.png" />
+				
+				
 				<element name="capLeft" src="capLeft.png" />
 				<element name="capLeftOver" src="capLeftOver.png" />
 				<element name="capRight" src="capRight.png" />
 				<element name="capRightOver" src="capRightOver.png" />
-
+				
+				
 				<element name="bufferIcon" src="bufferIcon.png" />
 				<element name="bufferIconOver" src="bufferIconOver.png" />
 				<element name="errorIcon" src="errorIcon.png" />
 				<element name="errorIconOver" src="errorIconOver.png" />
-				<element name="playIcon" src="playIcon.png" />
-				<element name="playIconOver" src="playIconOver.png" />
+				
+				<!--
+					you dont REALLY need those
+					<element name="playIcon" src="playIcon.png" />
+					<element name="playIconOver" src="playIconOver.png" />
+				-->
 				<element name="replayIcon" src="replayIcon.png" />
 				<element name="replayIconOver" src="replayIconOver.png" />
+				
+				
 			</elements>
 		</component>
 
